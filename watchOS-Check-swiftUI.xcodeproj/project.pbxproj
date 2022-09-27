@@ -18,6 +18,13 @@
 		F9AE2D7428DA32D1000B100E /* StretchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE2D7328DA32D1000B100E /* StretchView.swift */; };
 		F9AE2D7628DA372E000B100E /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AE2D7528DA372E000B100E /* CompleteView.swift */; };
 		F9AE2D9D28DA4E69000B100E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AE2D9C28DA4E69000B100E /* UserNotifications.framework */; };
+		F9FE4B9428E363670060325B /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9328E363670060325B /* AnimationView.swift */; };
+		F9FE4B9628E368ED0060325B /* AnimatableVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9528E368ED0060325B /* AnimatableVector.swift */; };
+		F9FE4B9828E369940060325B /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9728E369940060325B /* CGPoint+Extension.swift */; };
+		F9FE4B9A28E369C70060325B /* MorphingCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9928E369C70060325B /* MorphingCircleShape.swift */; };
+		F9FE4B9C28E36A0B0060325B /* MorphingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9B28E36A0B0060325B /* MorphingCircle.swift */; };
+		F9FE4B9E28E36A5A0060325B /* BubbleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9D28E36A5A0060325B /* BubbleAnimationView.swift */; };
+		F9FE4BA028E370790060325B /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4B9F28E370790060325B /* MyTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,13 @@
 		F9AE2D7328DA32D1000B100E /* StretchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchView.swift; sourceTree = "<group>"; };
 		F9AE2D7528DA372E000B100E /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
 		F9AE2D9C28DA4E69000B100E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		F9FE4B9328E363670060325B /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		F9FE4B9528E368ED0060325B /* AnimatableVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableVector.swift; sourceTree = "<group>"; };
+		F9FE4B9728E369940060325B /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		F9FE4B9928E369C70060325B /* MorphingCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingCircleShape.swift; sourceTree = "<group>"; };
+		F9FE4B9B28E36A0B0060325B /* MorphingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingCircle.swift; sourceTree = "<group>"; };
+		F9FE4B9D28E36A5A0060325B /* BubbleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleAnimationView.swift; sourceTree = "<group>"; };
+		F9FE4B9F28E370790060325B /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,13 @@
 				F9AE2D5F28DA2346000B100E /* Assets.xcassets */,
 				F9AE2D6D28DA2F39000B100E /* Color+Extension.swift */,
 				F9AE2D6128DA2346000B100E /* Preview Content */,
+				F9FE4B9328E363670060325B /* AnimationView.swift */,
+				F9FE4B9D28E36A5A0060325B /* BubbleAnimationView.swift */,
+				F9FE4B9F28E370790060325B /* MyTimer.swift */,
+				F9FE4B9528E368ED0060325B /* AnimatableVector.swift */,
+				F9FE4B9728E369940060325B /* CGPoint+Extension.swift */,
+				F9FE4B9928E369C70060325B /* MorphingCircleShape.swift */,
+				F9FE4B9B28E36A0B0060325B /* MorphingCircle.swift */,
 			);
 			path = "watchOS-Check-swiftUI Watch App";
 			sourceTree = "<group>";
@@ -220,11 +241,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9AE2D7428DA32D1000B100E /* StretchView.swift in Sources */,
+				F9FE4BA028E370790060325B /* MyTimer.swift in Sources */,
+				F9FE4B9428E363670060325B /* AnimationView.swift in Sources */,
 				F9AE2D7628DA372E000B100E /* CompleteView.swift in Sources */,
+				F9FE4B9628E368ED0060325B /* AnimatableVector.swift in Sources */,
 				F9AE2D7228DA3216000B100E /* TerminateView.swift in Sources */,
+				F9FE4B9C28E36A0B0060325B /* MorphingCircle.swift in Sources */,
+				F9FE4B9A28E369C70060325B /* MorphingCircleShape.swift in Sources */,
+				F9FE4B9E28E36A5A0060325B /* BubbleAnimationView.swift in Sources */,
 				F9AE2D5E28DA2344000B100E /* ContentView.swift in Sources */,
 				F9AE2D7028DA305C000B100E /* StretchingView.swift in Sources */,
 				F9AE2D6E28DA2F39000B100E /* Color+Extension.swift in Sources */,
+				F9FE4B9828E369940060325B /* CGPoint+Extension.swift in Sources */,
 				F9AE2D5C28DA2344000B100E /* watchOS_Check_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

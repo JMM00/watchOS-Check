@@ -9,8 +9,13 @@ import SwiftUI
 
 struct StretchingView: View {
     var body: some View {
-        Text("손을 위로 뻗어보세요")
-            .font(.system(size: 20 ))
+        ScrollView {
+            VStack{
+                Text("손을 위로 뻗어보세요")
+                    .font(.system(size: 20 ))
+                BubbleAnimationView()
+            }
+        }
     }
 }
 
